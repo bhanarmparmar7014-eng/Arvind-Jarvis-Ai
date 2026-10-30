@@ -15,12 +15,13 @@ fullscreen = 0
 # Android Permissions
 android.permissions = INTERNET, RECORD_AUDIO, BATTERY_STATS, CALL_PHONE
 
-# Android SDK / NDK Architecture Settings
-android.api = 34
+# Android API aur NDK version stable set karein
+android.api = 33
 android.minapi = 21
-android.ndk = 28c
-android.build_tools_version = 34.0.0
+android.ndk = 25b
+android.ndk_api = 21
 android.archs = arm64-v8a
+
 
 # Allow Root / PRoot Build
 android.accept_sdk_license = True
